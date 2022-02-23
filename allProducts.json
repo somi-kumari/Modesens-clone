@@ -1,0 +1,122 @@
+[
+    {
+        "name" : "Fenddi Suits",
+        "category" : "Suit",
+        "price" : "756",
+        "imgSrc" : "images/men1.webp"
+    },
+    {
+        "name" : "Gucci Wallet",
+        "category" : "Men Accessiories",
+        "price" : "102",
+        "imgSrc" : "images/men2.webp"
+    },
+    {
+        "name" : "Woodland Shoe",
+        "category" : "Shoe",
+        "price" : "215",
+        "imgSrc" : "images/men3.jpg"
+    },
+    {
+        "name" : "D&G Cap",
+        "category" : "Men Accessiories",
+        "price" : "23",
+        "imgSrc" : "images/men4.jpg"
+    },
+    {
+        "name" : "Attico Dresses",
+        "category" : " Feather Dresses",
+        "price" : "250",
+        "imgSrc" : "images/women5.webp"
+    },
+    {
+        "name" : "Bottega Veneta",
+        "category" : "Leather Bags",
+        "price" : "100",
+        "imgSrc" : "images/women2.jpg"
+    },
+    {
+        "name" : "Jimmy Choo",
+        "category" : "Ankle Shoes",
+        "price" : "175",
+        "imgSrc" : "images/women3.jpg"
+    },
+    {
+        "name" : "Aerin",
+        "category" : "Matte Lipstic",
+        "price" : "25",
+        "imgSrc" : "images/women4.jpg"
+    },
+    {
+        "name" : "D&j Dresses",
+        "category" : "Baby Girl Dresses",
+        "price" : "249",
+        "imgSrc" : "images/kid2.webp"
+    },
+    {
+        "name" : "Gucci Gloves",
+        "category" : "Kids Gloves",
+        "price" : "54",
+        "imgSrc" : "images/kid3.jpg"
+    },
+    {
+        "name" : "Huge Boss Cap",
+        "category" : "Kid Kinnted",
+        "price" : "69",
+        "imgSrc" : "images/kid4.jpg"
+    },
+    {
+        "name" : "Lego Toys",
+        "category" : "Toys",
+        "price" : "17",
+        "imgSrc" : "images/kid5.jpg"
+    },
+    {
+        "name" : "Sleigh bed",
+        "category" : "Bed",
+        "price" : "90",
+        "imgSrc" : "images/sleigh-bed.png"
+    },
+    {
+        "name" : "Sofa bed",
+        "category" : "Bed",
+        "price" : "378",
+        "imgSrc" : "images/sofa-bed.png"
+    },
+    {
+        "name" : "White armchair",
+        "category" : "Chair",
+        "price" : "75",
+        "imgSrc" : "images/white-armchair.png"
+    },
+    {
+        "name" : "White sofa",
+        "category" : "Sofa",
+        "price" : "159",
+        "imgSrc" : "images/white-sofa.png"
+    },
+    {
+        "name" : "Mos i-phone12 Cover",
+        "category" : "Covers",
+        "price" : "9",
+        "imgSrc" : "images/home3.webp"
+    },
+    {
+        "name" : "Cocktail Table",
+        "category" : "Tables",
+        "price" : "187",
+        "imgSrc" : "images/home4.webp"
+    },
+    {
+        "name" : "Moschino",
+        "category" : "Headsets",
+        "price" : "132",
+        "imgSrc" : "images/home1.jpg"
+    },
+    {
+        "name" : "Ceramic Cup",
+        "category" : "Home Decor",
+        "price" : "28",
+        "imgSrc" : "images/home2.webp"
+    }
+]

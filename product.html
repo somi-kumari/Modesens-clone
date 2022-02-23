@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="product.css" />
+    <title>Modesens</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <a class="logoModesens" href="./index.html">
+          <img src="./img/navlogoMod.svg" alt="Modesens" />
+        </a>
+        <li><a href="#women">WOMEN</a></li>
+        <li><a href="#men">MEN</a></li>
+        <li><a href="#kids">KIDS</a></li>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#offers">OFFERS</a></li>
+        <li><a href="#designers">DESIGNERS</a></li>
+        <li><a href="#community">COMMUNITY</a></li>
+        <li><a href="#why">WHY_MODESENS</a></li>
+      </ul>
+      <div class="rightNav">
+        <!-- ***cart icon***** -->
+        <div class="cart">
+          <button type="button" id="cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count-info"></span>
+          </button>
+
+          <div class="cart-container">
+            <div class="cart-list">
+              <!-- single item -->
+              <!-- <div class = "cart-item">
+                  <img src = "images/armchair.png" alt = "product image">
+                  <div class = "cart-item-info">
+                    <h3 class = "cart-item-name">Arm Chair</h3>
+                    <span class = "cart-item-category">Chair</span>
+                    <span class = "cart-item-price">$120.00</span>
+                  </div>
+
+                  <button type = "button" class = "cart-item-del-btn">
+                    <i class = "fas fa-times"></i>
+                  </button>
+                </div> -->
+              <!-- end of single item  -->
+            </div>
+
+            <div class="cart-total">
+              <h3>Total: $</h3>
+              <span id="cart-total-value"></span>
+            </div>
+          </div>
+        </div>
+        <a class="profile" href="./register.html">
+          <img
+            src="https://cdn-icons.flaticon.com/png/128/2815/premium/2815428.png?token=exp=1645517559~hmac=6abe0ecf3d96966b861700368ce17430"
+            alt="profile"
+          />
+        </a>
+      </div>
+    </nav>
+    <!-- ####### nav end#### -->
+    <!-- ********1st box******* -->
+    <!-- products section  -->
+    <section class="products">
+      <div class="container">
+        <h2>Our Products</h2>
+        <div class="product-list">
+          <!-- single item -->
+          <!-- <div class = "product-item">
+                  <div class = "product-img">
+                    <img src = "./images/" alt = "product image">
+                    <button type = "button" class = "add-to-cart-btn">
+                      <i class = "fas fa-shopping-cart"></i>Add To Cart
+                    </button>
+                  </div>
+      
+                  <div class = "product-content">
+                    <h3 class = "product-name">Wooden Bed</h3>
+                    <span class = "product-category">Bed</span>
+                    <p class = "product-price">$120.00</p>
+                  </div>
+                </div> -->
+          <!-- end of single item -->
+        </div>
+      </div>
+    </section>
+    <!-- end of products section -->
+  </body>
+</html>
+<script src="product.js"></script>
