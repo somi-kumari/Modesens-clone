@@ -28,7 +28,7 @@ body {
   width: 200px;
   font-size: 24px;
   font-weight: bold;
-  color: rgb(2, 117, 117);
+  color: rgb(3, 3, 3);
   text-align: center;
 }
 .confirmText > p {
@@ -57,7 +57,7 @@ body {
 .shoppingButton > button {
   width: fit-content;
   margin-right: 35px;
-  background-color: #22b115;
+  background-color: #10250e;
   /* padding-left: 10px;  */
   border: none;
   border-radius: 5px;
@@ -79,8 +79,8 @@ body {
   /* border: 2px solid black; */
   /* margin-right: 30px; */
   padding: 8px;
-  color: black;
-  background: #ffc439;
+  color: rgb(255, 255, 255);
+  background: #313131;
   border-radius: 5px;
   font-weight: bold;
 }

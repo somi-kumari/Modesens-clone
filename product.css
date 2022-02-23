@@ -290,6 +290,16 @@ header .container {
   font-size: 1.3rem;
   font-weight: 500;
 }
+.goto-payment {
+  justify-items: center;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 25px;
+  background: grey;
+  color: #fff;
+}
 
 /* banner  */
 .banner {

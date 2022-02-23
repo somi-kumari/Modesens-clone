@@ -19,13 +19,13 @@ document.querySelector("#sub").addEventListener("click", function () {
       } else {
         alert("Invalid OTP");
       }
-      // alert("Payment Successful..!");
-      // window.location.href = "./success.html";
+      alert("Payment Successful..!");
+      window.location.href = "./success.html";
+    } else {
+      alert("Invalid Card Details");
     }
-
-    // else {
-    //   alert("Invalid Card Details");
-    // }
+    // ******clear-cart******
+    localStorage.clear();
     // document.querySelector("#card").value = "";
     // document.querySelector("#cvv").value = "";
   }
