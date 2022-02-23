@@ -1,0 +1,262 @@
+/* font-family: forma-djr-display, sans-serif; */
+/* font-family: Montserrat, sans-serif, Arial, "sans-serif"; */
+/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 0% 1.5% 0% 1.5%;
+}
+.logoModesens {
+  width: 100%;
+}
+.logoModesens img {
+  width: 150px;
+}
+
+.navbar {
+  display: flex;
+}
+.nav-list {
+  width: 70%;
+
+  /* background-color: rgb(238, 236, 214); */
+
+  display: flex;
+  align-items: center;
+}
+.nav-list li {
+  list-style: none;
+  padding: 26px 17px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: forma-djr-display, sans-serif;
+  /* font-family: Montserrat, sans-serif, Arial, "sans-serif"; */
+}
+.nav-list li a {
+  text-decoration: none;
+  color: rgb(63, 61, 61);
+}
+.nav-list li a:hover {
+  color: grey;
+}
+.rightNav {
+  /* background-color: teal; */
+  width: 30%;
+  text-align: right;
+  justify-content: right;
+  display: flex;
+  align-items: center;
+}
+
+.searchicon img {
+  width: 25px;
+  height: 25px;
+}
+.country img {
+  width: 25px;
+  height: 25px;
+}
+
+.profile {
+  padding: 20px;
+}
+.profile img {
+  width: 25px;
+  height: 25px;
+}
+/* *********1st crousal**** */
+.mainContainer {
+  max-width: 87%;
+
+  margin: auto;
+  /* border: 2px solid blue; */
+  width: 100vw;
+  height: 55vh;
+}
+.mainSalebox {
+  /* border: 1px solid red; */
+}
+.salebox {
+  display: flex;
+  gap: 9%;
+}
+.viewMore {
+  /* border: 1px solid blue; */
+  justify-content: end;
+  width: fit-content;
+  height: fit-content;
+  font-weight: 500;
+  /* font-family: forma-djr-display, sans-serif; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sale1 {
+  width: 25%;
+}
+.saleQ1 {
+  text-align: center;
+  font-size: 14px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  width: 100%;
+  object-fit: contain;
+  /* ************ */
+  white-space: nowrap;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  line-height: 30px;
+}
+.saleQ2 {
+  text-align: center;
+  font-size: 14px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  width: 100%;
+  object-fit: contain;
+  /* ************ */
+  white-space: nowrap;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  line-height: 30px;
+}
+.saleQ3 {
+  text-align: center;
+  font-size: 14px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  width: 100%;
+  object-fit: contain;
+  /* ************ */
+  white-space: nowrap;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  line-height: 30px;
+}
+.sale2 {
+  width: 25%;
+}
+.sale3 {
+  width: 25%;
+}
+/* ******trending now****** */
+
+.trendingNow {
+  width: fit-content;
+  height: fit-content;
+  /* border: 1px solid green; */
+  margin: auto;
+  font-weight: 580px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif, Arial, "sans-serif";
+  letter-spacing: 2.5px;
+  margin-top: 30px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.trendingBox {
+  display: flex;
+}
+
+.trendingCard1 img {
+  height: 50%;
+  width: 80%;
+  object-fit: contain;
+}
+.trendingQ1 {
+  text-align: center;
+  font-size: 14px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 70%;
+  width: 70%;
+  object-fit: contain;
+}
+.trendingCard2 img {
+  height: 50%;
+  width: 80%;
+  object-fit: contain;
+}
+.trendingQ2 {
+  text-align: center;
+  font-size: 14px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 70%;
+  width: 70%;
+  object-fit: contain;
+}
+.trendingCard3 img {
+  height: 50%;
+  width: 80%;
+  object-fit: contain;
+}
+.trendingQ3 {
+  text-align: center;
+  font-size: 14px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 70%;
+  width: 70%;
+  object-fit: contain;
+}
+.trendingCard4 img {
+  height: 50%;
+  width: 80%;
+  object-fit: contain;
+}
+.trendingQ4 {
+  text-align: center;
+  font-size: 14px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 70%;
+  width: 70%;
+  object-fit: contain;
+}
+.trendingCard5 img {
+  height: 50%;
+  width: 80%;
+  object-fit: contain;
+}
+.trendingQ5 {
+  text-align: center;
+  font-size: 14px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 70%;
+  width: 70%;
+  object-fit: contain;
+}
+.trendingCard6 img {
+  height: 50%;
+  width: 50%;
+  object-fit: contain;
+}
+.trendingQ6 {
+  text-align: center;
+  font-size: 14px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 70%;
+  width: 70%;
+  object-fit: contain;
+}
+.footer {
+  width: 70%;
+}
