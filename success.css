@@ -1,0 +1,90 @@
+body {
+  font-family: "Lato";
+}
+.successPage-container {
+  box-shadow: 2px 2px 6px 8px rgba(216, 216, 216, 0.541);
+  height: 320px;
+  width: 650px;
+  margin: 100px auto;
+  border-radius: 7px;
+}
+.confirmIcon {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.confirmIcon > img {
+  width: 100%;
+  height: 100%;
+  /* padding: 1px; */
+}
+.confirmText {
+  /* border: 1px solid rgb(3, 3, 3); */
+  margin: auto;
+  height: 50px;
+  width: 200px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(2, 117, 117);
+  text-align: center;
+}
+.confirmText > p {
+  font-size: 16px;
+  color: rgb(78, 74, 74);
+}
+.confirmText > p:nth-child(2) {
+  font-size: 12px;
+  color: rgb(104, 99, 99);
+}
+.shoppingButton {
+  width: 300px;
+  height: 35px;
+
+  margin-top: 80px;
+
+  background-color: white;
+  color: black;
+  /* border: 1px solid grey; */
+  /* padding: 4px 16px; */
+  justify-content: center;
+  /* margin-left: 180px; */
+  display: flex;
+  /* padding-right: 5px; */
+}
+.shoppingButton > button {
+  width: fit-content;
+  margin-right: 35px;
+  background-color: #22b115;
+  /* padding-left: 10px;  */
+  border: none;
+  border-radius: 5px;
+  color: #1b1818;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+
+  /* box-shadow: 2px 2px 6px 8px rgba(243, 240, 240, 0.541); */
+}
+/* .shoppingButton > button:nth-child(2) {
+      background-color: #84c225;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 12px;
+    } */
+
+.continue {
+  /* border: 2px solid black; */
+  /* margin-right: 30px; */
+  padding: 8px;
+  color: black;
+  background: #ffc439;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.shoppingButton {
+  margin: auto;
+  margin-top: 90px;
+}

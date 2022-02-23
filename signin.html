@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn</title>
+    <link rel="stylesheet" href="./signin.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>
+          <a href="#">
+            <img src="./img/modsenslogo.png" alt="modesens logo" />
+          </a>
+        </h1>
+      </header>
+      <h3 class="text-center">We're Revolutionizing the Way People Shop</h3>
+      <div class="comparebox">
+        Compare across 400+ stores<br />
+        to find the best price
+      </div>
+      <h1 class="text-center">Sign In</h1>
+      <form class="registration-form" onsubmit="return chekcforblank(event)">
+        <label>
+          <span class="label-text">Email</span>
+          <input type="text" name="email" id="email" />
+        </label>
+        <label class="password">
+          <span class="label-text">Password</span>
+          <button
+            class="toggle-visibility"
+            title="toggle password visibility"
+            tabindex="-1"
+          >
+            <span class="glyphicon glyphicon-eye-close"></span>
+          </button>
+          <input type="password" name="password" id="password" />
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="newsletter" />
+          <span>Subscribe to personalized sale updates and offers</span>
+        </label>
+        <div class="text-center">
+          <button class="submit" name="register">Continue</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script src="signin.js"></script>

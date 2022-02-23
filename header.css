@@ -1,0 +1,66 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* body {
+  padding: 0% 1.5% 0% 1.5%;
+} */
+.logoModesens {
+  width: 100%;
+}
+.logoModesens img {
+  width: 150px;
+}
+
+.navbar {
+  display: flex;
+}
+.nav-list {
+  width: 70%;
+
+  /* background-color: rgb(238, 236, 214); */
+
+  display: flex;
+  align-items: center;
+}
+.nav-list li {
+  list-style: none;
+  padding: 26px 17px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: forma-djr-display, sans-serif;
+  /* font-family: Montserrat, sans-serif, Arial, "sans-serif"; */
+}
+.nav-list li a {
+  text-decoration: none;
+  color: rgb(63, 61, 61);
+}
+.nav-list li a:hover {
+  color: grey;
+}
+.rightNav {
+  /* background-color: teal; */
+  width: 30%;
+  text-align: right;
+  justify-content: right;
+  display: flex;
+  align-items: center;
+}
+
+.searchicon img {
+  width: 25px;
+  height: 25px;
+}
+.country img {
+  width: 25px;
+  height: 25px;
+}
+
+.profile {
+  padding: 20px;
+}
+.profile img {
+  width: 25px;
+  height: 25px;
+}
