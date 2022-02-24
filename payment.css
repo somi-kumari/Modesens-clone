@@ -166,3 +166,6 @@ body {
   text-align: center;
   padding: 10px 20px;
 }
+.totalToPay {
+  color: rgb(94, 90, 90);
+}

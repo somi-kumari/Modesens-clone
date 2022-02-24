@@ -1,7 +1,12 @@
+// *******totalToPay*******
+let totalCart = localStorage.getItem("totalCart");
+let totalPay = document.querySelector(".totalToPay");
+totalPay.innerHTML = `<h3 class = "totalToPay">Total to pay : $ ${totalCart}</h3>`;
+
 document.querySelector("#sub").addEventListener("click", function () {
-  var text = document.querySelector("#text").value;
-  var card = document.querySelector("#card").value;
-  var cvv = document.querySelector("#cvv").value;
+  let text = document.querySelector("#text").value;
+  let card = document.querySelector("#card").value;
+  let cvv = document.querySelector("#cvv").value;
 
   if (text.length == 0 || card.length == 0 || cvv.length == 0) {
     alert("Please Enter Required Fields....!");

@@ -312,6 +312,6 @@ body {
   width: 70%;
   object-fit: contain;
 }
-.footer {
-  width: 70%;
+.footer img {
+  width: 100%;
 }

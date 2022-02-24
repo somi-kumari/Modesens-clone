@@ -176,3 +176,13 @@ function deleteProduct(e) {
   localStorage.setItem("products", JSON.stringify(updatedProducts)); // updating the product list after the deletion
   updateCartInfo();
 }
+
+function goToPayment() {
+  let products = localStorage.getItem("products");
+  products = JSON.parse(products);
+  if (products.length > 0) {
+    window.location.href = "./payment.html";
+  } else {
+    alert("Cart is empty !!!");
+  }
+}
