@@ -30,7 +30,8 @@ document.querySelector("#sub").addEventListener("click", function () {
       alert("Invalid Card Details");
     }
     // ******clear-cart******
-    localStorage.clear();
+    localStorage.removeItem("totalCart");
+    localStorage.removeItem("products");
     // document.querySelector("#card").value = "";
     // document.querySelector("#cvv").value = "";
   }

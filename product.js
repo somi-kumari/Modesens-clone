@@ -179,10 +179,16 @@ function deleteProduct(e) {
 
 function goToPayment() {
   let products = localStorage.getItem("products");
+  let usercred = localStorage.getItem("usercred");
   products = JSON.parse(products);
-  if (products.length > 0) {
-    window.location.href = "./payment.html";
+  if (usercred && usercred.length >= 1) {
+    if (products && products.length > 0) {
+      window.location.href = "./payment.html";
+    } else {
+      alert("Cart is empty !!!");
+    }
   } else {
-    alert("Cart is empty !!!");
+    alert("Not a registerd user");
+    window.location.href = "./register.html";
   }
 }

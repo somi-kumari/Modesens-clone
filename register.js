@@ -17,9 +17,6 @@ function chekcforblank() {
   if (count > 1 && email == "") {
     alert("enter ur email");
     return false;
-  } else if (password == "") {
-    alert("enter ur password");
-    return false;
   }
   //   else if (first == "") {
   //     alert("enter ur password");
