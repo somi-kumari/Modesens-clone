@@ -291,6 +291,7 @@ header .container {
   font-weight: 500;
 }
 .goto-payment {
+  width: 100%;
   justify-items: center;
   padding: 0.5rem;
   display: flex;
@@ -299,6 +300,9 @@ header .container {
   font-size: 25px;
   background: grey;
   color: #fff;
+  border: none;
+  outline: none;
+  margin-top: 10px;
 }
 
 /* banner  */

@@ -370,15 +370,34 @@ body {
 #goToTopBtn {
   display: none;
   position: fixed;
-  bottom: 60px;
-  right: 30px;
+  bottom: 70px;
+  right: 0px;
   z-index: 99;
   font-size: 16px;
   border: none;
   outline: none;
-  background-color: rgb(182, 182, 182);
+  background-color: rgb(255, 254, 254);
   color: rgb(0, 0, 0);
   cursor: pointer;
   padding: 10px;
   border-radius: 4px;
+}
+/* *******shop now btn****** */
+.shopNow {
+  margin: 0.8rem 0;
+  display: inline-block;
+  font-weight: 500;
+  background: black;
+  color: #fff;
+  padding: 0.05rem 1.5rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  letter-spacing: 2px;
+}
+#goToTopBtn img {
+  width: 35%;
+  height: 35%;
 }
